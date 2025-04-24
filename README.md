@@ -10,7 +10,9 @@ dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         mavenCentral()
-        maven { url 'https://jitpack.io' }
+         maven {
+            url = uri("https://www.jitpack.io")
+        }
     }
 }
 ```
@@ -18,7 +20,7 @@ dependencyResolutionManagement {
 ### Step 2: Add the Dependency
 ```groovy
 dependencies {
-    implementation 'com.github.sarkar-jayanta:android-boilerplate:1.0.0'
+    implementation("com.github.sarkar-jayanta:android-boilerplate:1.0.0")
 }
 ```
 
