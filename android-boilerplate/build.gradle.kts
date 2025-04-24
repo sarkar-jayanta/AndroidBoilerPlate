@@ -44,6 +44,14 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
+    tasks.withType<JavaCompile> {
+        options.compilerArgs.addAll(listOf(
+            "--add-exports", "jdk.compiler/com.sun.tools.javac.main=ALL-UNNAMED",
+            "--add-exports", "jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED",
+            "--add-exports", "jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED",
+            "--add-exports", "jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED"
+        ))
+    }
 }
 
 dependencies {
@@ -57,7 +65,7 @@ dependencies {
     implementation(libs.hilt.android)
     implementation(libs.androidx.swiperefreshlayout)
     kapt(libs.hilt.android.compiler)
-    implementation(libs.retrofit2)
+    implementation(libs.retrofit2.gson)
     implementation(libs.sdp)
     implementation(libs.ssp)
     implementation(libs.security)
@@ -73,7 +81,7 @@ afterEvaluate {
                 from (components["release"])
                 groupId = "com.github.sarkar-jayanta"
                 artifactId = "android-boilerplate"
-                version = "1.0"
+                version = "1.0.0"
             }
         }
     }
