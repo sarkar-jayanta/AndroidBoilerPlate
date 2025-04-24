@@ -6,7 +6,7 @@
 
         <variable
             name="vm"
-            type="com.sit.common.base.BaseViewModel" />
+            type="com.boilerplate.base.BaseViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
