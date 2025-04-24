@@ -4,7 +4,7 @@ A robust, production-ready Android boilerplate module designed to accelerate dev
 
 ## Integration
 
-### Step 1: Add JitPack to your Root `build.gradle`
+### Step 1: Add JitPack to your Root `settings.gradle.kts`
 ```groovy
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
