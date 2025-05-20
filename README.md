@@ -1,7 +1,7 @@
-# Android Boilerplate
+# Android Boilerplate ![GitHub stars](https://img.shields.io/github/stars/sarkar-jayanta/android-boilerplate?style=social)
 
 A robust, production-ready Android boilerplate module designed to accelerate development by providing a scalable architecture, essential utilities, and a collection of battle-tested components.
-[![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO.svg?style=social)](https://github.com/YOUR_USERNAME/YOUR_REPO/stargazers)
+
 
 
 ## Integration
@@ -158,6 +158,13 @@ This boilerplate isn't just a template—it is a highly modular, enterprise-grad
 Leverage this module to build secure, scalable, and maintainable Android applications from day one.
 
 ---
+
+## ⭐️ Support
+
+If you find this project helpful, please consider giving it a ⭐️ on GitHub — it really helps others discover it!
+
+---
+
 
 **Author:** Jayanta Sarkar  
 **Repository:** [GitHub - android-boilerplate](https://github.com/sarkar-jayanta/android-boilerplate)
