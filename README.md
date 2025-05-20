@@ -1,6 +1,8 @@
 # Android Boilerplate
 
 A robust, production-ready Android boilerplate module designed to accelerate development by providing a scalable architecture, essential utilities, and a collection of battle-tested components.
+[![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO.svg?style=social)](https://github.com/YOUR_USERNAME/YOUR_REPO/stargazers)
+
 
 ## Integration
 
